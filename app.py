@@ -39,7 +39,7 @@ tfidf=pickle.load(open("vectorizer.pkl","rb"))
 
 model=pickle.load(open("model.pkl","rb"))
 
-st.title("Email/SMS Classifire")
+st.title("Email/SMS Classifier")
 
 
 input_sms=st.text_area("Enter your message")
