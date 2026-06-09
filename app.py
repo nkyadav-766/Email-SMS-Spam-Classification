@@ -39,10 +39,10 @@ tfidf=pickle.load(open("vectorizer.pkl","rb"))
 
 model=pickle.load(open("model.pkl","rb"))
 
-st.title("Email/SMS classifire")
+st.title("Email/SMS Classifire")
 
 
-input_sms=st.text_area("enter your message")
+input_sms=st.text_area("Enter your message")
 
 if st.button("predict"):
     transformed_sms = transform_text(input_sms)
